@@ -9,7 +9,7 @@ console.log(props)
 return ( 
 <div>
 <h3> Hello {props.name} is {props.nameCharacter} </h3>
-{}
+{props.children}
 </div>
 )
 
